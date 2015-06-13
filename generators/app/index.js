@@ -36,10 +36,10 @@ module.exports = yeoman.generators.Base.extend({
 
       /* Место для установки пакетов */  
 
-    //   this.npmInstall(
-    //     ['gulp', 'gulp-jade', 'gulp-sass', 'gulp-watch', 'browser-sync'],
-    //     {'saveDev': true}
-    //     );
+      this.npmInstall(
+        ['gulp', 'gulp-jade', 'gulp-sass', 'gulp-watch', 'browser-sync'],
+        {'saveDev': true}
+        );
 
     },
 
